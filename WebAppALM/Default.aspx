@@ -30,7 +30,7 @@
                 <div class="col-md-3">
                     <p>
                         <asp:Label ID="Label4" runat="server" Text="Number 2:"></asp:Label>&nbsp;
-                        <asp:TextBox ID="txtNum2" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNum2" runat="server" BorderStyle="Dotted" Font-Bold="True" TextMode="Number"></asp:TextBox>
 
                     </p>
                 </div>

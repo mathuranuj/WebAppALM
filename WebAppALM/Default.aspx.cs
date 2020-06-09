@@ -44,6 +44,15 @@ namespace WebAppALM
                 case '+':
                     intResult = Num1 + Num2;
                     break;
+                case '1':
+                    intResult = Num1 - Num2;
+                    break;
+                case '*':
+                    intResult = Num1 * Num2;
+                    break;
+                case '/':
+                    intResult = Num1 / Num2;
+                    break;
                 default:
                     break;
             }
