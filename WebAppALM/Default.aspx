@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <p>
-                        <asp:Label ID="Label3" runat="server" Text="Operation:"></asp:Label>&nbsp;
+                        <asp:Label ID="Label3" runat="server" Text="Operation:"></asp:Label>&nbsp; 
                         <asp:TextBox ID="txtOperator" runat="server" BorderStyle="Dotted" MaxLength="1"></asp:TextBox>
                     </p>
                 </div>

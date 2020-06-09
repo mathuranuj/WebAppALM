@@ -34,6 +34,7 @@ namespace WebAppALM
             lblResult.Text = fnCalculate(intNum1, intNum2, chrOperator);
         }
 
+        //function for the Calculator
         private string fnCalculate(int Num1, int Num2, char chrOperator)
         {
             int intResult = 0;
