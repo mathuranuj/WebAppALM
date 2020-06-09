@@ -44,7 +44,7 @@ namespace WebAppALM
                 case '+':
                     intResult = Num1 + Num2;
                     break;
-                case '1':
+                case '-':
                     intResult = Num1 - Num2;
                     break;
                 case '*':
