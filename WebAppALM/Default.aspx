@@ -10,29 +10,39 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <h2> Calculator </h2>
-                    <p><asp:TextBox ID="txtNum1" runat="server"></asp:TextBox></p>
+                    <p>
+                        <asp:Label ID="Label2" runat="server" Text="Number 1:"></asp:Label>&nbsp;
+                        <asp:TextBox ID="txtNum1" runat="server" Font-Bold="True" BorderStyle="Dotted" CausesValidation="False" TextMode="Number"></asp:TextBox>
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <p><asp:TextBox ID="txtOperator" runat="server"></asp:TextBox></p>
+                <div class="col-md-3">
+                    <p>
+                        <asp:Label ID="Label3" runat="server" Text="Operation:"></asp:Label>&nbsp;
+                        <asp:TextBox ID="txtOperator" runat="server" BorderStyle="Dotted" MaxLength="1"></asp:TextBox>
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <p><asp:TextBox ID="txtNum2" runat="server"></asp:TextBox></p>
+                <div class="col-md-3">
+                    <p>
+                        <asp:Label ID="Label4" runat="server" Text="Number 2:"></asp:Label>&nbsp;
+                        <asp:TextBox ID="txtNum2" runat="server"></asp:TextBox>
+
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
+                <div class="col-md-3">
+                    <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2">
-                    <asp:Label ID="Label1" runat="server" Text="The Result is - "></asp:Label>
+                <div class="col-md-3">
+                    <asp:Label ID="Label1" runat="server" Text="The Result is - "></asp:Label>&nbsp;
                     <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
                 </div>
             </div>
