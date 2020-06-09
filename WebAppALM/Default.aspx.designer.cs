@@ -42,13 +42,13 @@ namespace WebAppALM
         protected global::System.Web.UI.WebControls.TextBox txtNum2;
 
         /// <summary>
-        /// btnResult control.
+        /// btnCalculate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnResult;
+        protected global::System.Web.UI.WebControls.Button btnCalculate;
 
         /// <summary>
         /// Label1 control.

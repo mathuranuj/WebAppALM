@@ -27,7 +27,7 @@
             </div>
             <div class="row">
                 <div class="col-md-2">
-                    <asp:LinkButton ID="btnResult" runat="server">Calculate</asp:LinkButton>
+                    <asp:Button ID="btnCalculate" runat="server" Text="Calculate" />
                 </div>
             </div>
             <div class="row">
